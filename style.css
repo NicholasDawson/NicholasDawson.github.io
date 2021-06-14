@@ -1,0 +1,56 @@
+/* Monokai Color Scheme */
+.red {
+  color: #f92672; }
+
+.blue {
+  color: #66d9ef; }
+
+.yellow {
+  color: #e6db74; }
+
+.violet {
+  color: #ae81ff; }
+
+body {
+  background-color: #272822;
+  width: 600px; }
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: monospace;
+  color: #f8f8f2;
+  margin-top: 12px;
+  margin-bottom: 12px; }
+
+.no-list-style {
+  list-style-type: none;
+  padding: 0; }
+
+#navbar > li {
+  display: inline-block;
+  padding-right: 1rem;
+  font-size: 16px; }
+
+#navbar > li:not(.active) > a:hover {
+  color: #a1efe4; }
+
+#links > li > a:hover {
+  color: #e6db74; }
+
+.project-title:hover {
+  color: #e6db74; }
+
+a {
+  text-decoration: none; }
+
+.active > a {
+  color: #a6e22e;
+  text-decoration: underline !important;
+  font-weight: bold; }
+
+div {
+  background-color: #3e3d32;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  margin: 1rem 0; }
+
+/*# sourceMappingURL=style.css.map */
