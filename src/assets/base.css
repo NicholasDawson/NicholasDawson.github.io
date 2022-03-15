@@ -1,0 +1,57 @@
+:root {
+  --orange: #c44536;
+  --dark-purple: #27233a;
+  --off-white: rgb(252, 244, 245);
+  --light-purple: #7d82b8;
+  --light-purple-50: rgba(125, 130, 184, 0.5);
+  --light-green: #9ce37d;
+}
+
+.bg-light-green {
+  background-color: var(--light-green);
+}
+
+.bg-light-purple {
+  background-color: var(--light-purple);
+}
+
+.bg-dark-purple {
+  background-color: var(--dark-purple);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.text-small {
+  font-size: 0.75rem;
+}
+
+html, #app {
+  background-color: var(--off-white);
+}
+
+.btn-outline-light-purple {
+  color: var(--light-purple);
+  border-color: var(--light-purple);
+}
+.btn-outline-light-purple:hover {
+  color: #fff;
+  background-color: var(--light-purple);
+  border-color: var(--light-purple);
+}
+.btn-check:focus + .btn-outline-light-purple, .btn-outline-light-purple:focus {
+  box-shadow: 0 0 0 0.25rem var(--light-purple-50);
+}
+.btn-check:checked + .btn-outline-light-purple, .btn-check:active + .btn-outline-light-purple, .btn-outline-light-purple:active, .btn-outline-light-purple.active, .btn-outline-light-purple.dropdown-toggle.show {
+  color: #fff;
+  background-color: var(--light-purple);
+  border-color: var(--light-purple);
+}
+.btn-check:checked + .btn-outline-light-purple:focus, .btn-check:active + .btn-outline-light-purple:focus, .btn-outline-light-purple:active:focus, .btn-outline-light-purple.active:focus, .btn-outline-light-purple.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem var(--light-purple-50);
+}
+.btn-outline-light-purple:disabled, .btn-outline-light-purple.disabled {
+  color: var(--light-purple);
+  background-color: transparent;
+}
