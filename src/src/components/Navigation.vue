@@ -27,6 +27,9 @@
                     <li class="nav-item">
                         <RouterLink class="nav-link" to="/projects">Projects</RouterLink>
                     </li>
+                    <li class="nav-item">
+                        <a href="/resume.pdf" target="_blank" class="nav-link">Resume</a>
+                    </li>
                 </ul>
             </div>
         </div>
