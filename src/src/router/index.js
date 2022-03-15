@@ -14,12 +14,6 @@ const router = createRouter({
       path: '/projects',
       name: 'projects',
       component: () => import('../views/ProjectsView.vue')
-    },
-    // Redirect url to resume
-    {
-      path: '/resume',
-      name: 'resume',
-      component: () => import('../views/ResumeView.vue')
     }
   ]
 })

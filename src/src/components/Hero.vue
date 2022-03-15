@@ -30,7 +30,7 @@
           <i class="bi-envelope-fill social-icon"></i>
         </a>
 
-        <a href="/resume" target="_blank" title="Resume">
+        <a href="/resume.pdf" target="_blank" title="Resume">
           <i class="bi-file-earmark-person-fill social-icon"></i>
         </a>
       </div>
