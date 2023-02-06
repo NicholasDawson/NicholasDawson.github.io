@@ -1,10 +1,7 @@
 <script setup>
 import TechnologyCard from "./TechnologyCard.vue";
 
-const experiencedList = [
-  ''
-]
-
+const experiencedList = [""];
 </script>
 
 <template>
@@ -18,11 +15,15 @@ const experiencedList = [
         icon="bi-star-fill"
         title="Experienced"
         :technologies="[
-        'Python',
-        'HTML',
-        'Java',
-        'Web Scraping'
-        ]"        
+          'Python',
+          'Java',
+          'JavaScript',
+          'HTML',
+          'Vue',
+          'Kotlin',
+          'Spring Framework',
+          'Web Scraping',
+        ]"
       />
 
       <!--Familiar Card-->
@@ -30,35 +31,30 @@ const experiencedList = [
         icon="bi-check-square-fill"
         title="Familiar"
         :technologies="[
-        'C',
-        'JavaScript',
-        'Flask',
-        'React',
-        'FastAPI',
-        'PHP',
-        'MySQL',
-        'PostgreSQL',
-        'Bootstrap',
-        'REST APIs',
-        'JSON'
-        ]"        
+          'C',
+          'Flask',
+          'React',
+          'FastAPI',
+          'PHP',
+          'MySQL',
+          'PostgreSQL',
+          'Bootstrap',
+          'REST APIs',
+          'JSON',
+          'CSS',
+          'Google Cloud',
+          'Microsoft Azure',
+        ]"
       />
 
       <!--Learning-->
       <TechnologyCard
         icon="bi-book-fill"
         title="Learning"
-        :technologies="[
-        'Kotlin',
-        'Vue',
-        'Azure',
-        'Go',
-        'Django'
-        ]"        
+        :technologies="['Docker', 'CI/CD']"
       />
     </div>
   </div>
 </template>
 
-<style>
-</style>
+<style></style>

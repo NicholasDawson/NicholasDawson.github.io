@@ -6,6 +6,16 @@ import Project from '@/components/Project.vue';
     <h1 class="display-3 text-center my-3">My Projects</h1>
 
     <Project
+        title="froggy.app"
+        description="URL Shortener website that provides analytics to users. Created to learn new technologies and practice full stack web development with my best friend. The backend is private right now for security reasons, ask me if you are interested in the code!"
+        image="/screenshots/froggy-screenshot.png"
+        github="https://github.com/froggy-app"
+        link="https://froggy.app"
+        linkText="Try it!"
+        :badges="['Go', 'Gin', 'React', 'Redux', 'CockroachDB', 'Google App Engine']"
+    />
+
+    <Project
         title="Archiver for Google Photos"
         description="An open-source command line tool to maintain an archive/mirror of your Google Photos library for backup purposes."
         image="/screenshots/archiver-for-google-photos.png"
@@ -18,7 +28,7 @@ import Project from '@/components/Project.vue';
         title="Chromebook Repair Management Tool"
         description="An automation software suite that manages and tracks all steps of the Chromebook Repair Process at Portland CT Public Schools."
         image="/screenshots/chromebook-repair-management-tool.png"
-        link="/Capstone Presentation.pdf"
+        link="/documents/Capstone Presentation.pdf"
         linkText="Presentation"
         :badges="['Python', 'Google Sheets', 'PyQt5', 'Web Automation', 'PDF Filling']"
     />

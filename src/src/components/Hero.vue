@@ -15,7 +15,8 @@
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">
         Software Engineering student at RIT with a passion for helping everyone with efficient and useful software.
-        Loves learning new things and is interested in web development.
+        Constantly learning new things and is interested in web development and cybersecurity.
+        In my free time I climb rocks, go hiking, play games, and work on personal software projects.
       </p>
       <div class="gap-2 d-flex justify-content-center">
         <a href="https://github.com/nicholasdawson" target="_blank" title="GitHub">
