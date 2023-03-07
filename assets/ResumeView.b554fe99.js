@@ -1,1 +1,0 @@
-import{_ as e}from"./index.7c287fd6.js";import{o as t,c as o}from"./vendor.c869dcad.js";window.location.href="/documents/resume.pdf";const s={},r={class:"text-center display-1"};function c(n,a,i,p,_,d){return t(),o("h1",r,"Redirecting to Resume")}var u=e(s,[["render",c]]);export{u as default};
